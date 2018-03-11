@@ -145,7 +145,8 @@ header{
 }
 
 #intro-1-section{
-    background-color: ghostwhite;
+    background-color: #455A64;
+    color: aliceblue;
     border-bottom: solid 2px #790808;
     border-top: solid 2px #790808;
 }
