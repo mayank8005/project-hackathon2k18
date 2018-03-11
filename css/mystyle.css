@@ -56,6 +56,12 @@ header{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 500px){
+    #header-login-btn-div a{
+        display: none;
+    }
+}
+
 /* haeder code end */
 
 /* cover style: this area contains cover related style  */
@@ -100,13 +106,20 @@ header{
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+@media only screen and (max-width: 500px){
+    .intro-section-div{
+        width: 100%;
+        display: block;
+    }
+}
+
 .intro-section-div h2{
     color: #2196F3;
     font-family: 'Shadows Into Light Two', cursive;
 }
 
 .intro-div-container{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 /* intro sections end */
 
