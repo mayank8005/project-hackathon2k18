@@ -68,6 +68,15 @@ header{
 
 #cover-section{
     margin: 0;
+    height: 60vh;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+#cover-section-container{
+    width: 100%;
+    height: 100%;
     background: url('../images/image2.jpg') center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -75,9 +84,6 @@ header{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-    height: 60vh;
-    text-align: center;
-    
 }
 
 #input-container{
@@ -88,10 +94,14 @@ header{
     opacity: 1;
 }
 
-#cover-section:hover #input-container,
-#cover-section:focus #input-container{
-    transform: scale(1.05);
-    transition: .7s;
+#cover-section:hover #cover-section-container,
+#cover-section:focus #cover-section-container{
+    transform: scale(1.1);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition:  all 2;
 }
 
 #search-reg-input{
