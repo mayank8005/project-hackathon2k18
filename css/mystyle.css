@@ -68,7 +68,10 @@ header{
 
 #cover-section{
     margin: 0;
-    background-image: url('../images/image2.jpg');
+    background: url('../images/image2.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
