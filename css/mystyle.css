@@ -79,14 +79,14 @@ header{
 
 #input-container{
     margin-top: 25vh;
-    width: 70%;
+    width: 60%;
     padding: 15px 0 15px 0;
     background:rgba(255,255,255,0.6);
     opacity: 1;
 }
 
 #search-reg-input{
-    width:70%;
+    width:50%;
     padding: 5px;
     height: 30px;
     
@@ -95,16 +95,37 @@ header{
     font-size: 20;
 }
 
+@media only screen and (max-width: 500px){
+ 
+#input-container{
+    margin-top: 25vh;
+    width: 80%;
+    padding: 15px 0 15px 0;
+    background:rgba(255,255,255,0.6);
+    opacity: 1;
+}
+
+#search-reg-input{
+    width: 70%;
+    padding: 5px;
+    height: 30px;   
+    color: gray;
+    font-weight: bolder;
+    font-size: 20;
+}
+}
+
 /* cover area ended */
 
 /* this area contain code for both intro section */
 .intro-section{
     min-height: 50vh;
-    border: solid 1px #E0E0E0;
 }
 
 #intro-1-section{
-    background-color: #BBDEFB;
+    background-color: ghostwhite;
+    border-bottom: solid 2px #790808;
+    border-top: solid 2px #790808;
 }
 
 #intro-2-section{
@@ -124,6 +145,10 @@ header{
         width: 100%;
         display: block;
         font-size: 15px;
+        margin: 0;
+    }
+    .intro-div-container{
+        margin: 0;
     }
 }
 
@@ -133,7 +158,7 @@ header{
 }
 
 .intro-div-container{
-    margin-top: 15%;
+    padding: 15%;
 }
 /* intro sections end */
 
