@@ -101,7 +101,7 @@ header{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
-    transition:  all 2;
+    transition:  all .5s;
 }
 
 #search-reg-input{
