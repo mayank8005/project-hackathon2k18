@@ -88,6 +88,12 @@ header{
     opacity: 1;
 }
 
+#cover-section:hover #input-container,
+#cover-section:focus #input-container{
+    transform: scale(1.05);
+    transition: .7s;
+}
+
 #search-reg-input{
     width:50%;
     padding: 5px;
@@ -143,6 +149,7 @@ header{
     font-size: 20px;
 }
 
+
 @media only screen and (max-width: 500px){
     .intro-section-div{
         width: 100%;
@@ -161,7 +168,7 @@ header{
 }
 
 .intro-div-container{
-    padding: 15%;
+    padding: 8%;
 }
 /* intro sections end */
 
