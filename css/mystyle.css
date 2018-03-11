@@ -68,7 +68,7 @@ header{
 
 #cover-section{
     margin: 0;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     overflow: hidden;
     
@@ -84,6 +84,10 @@ header{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 #input-container{
@@ -101,7 +105,6 @@ header{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
-    transition:  all .5s;
 }
 
 #search-reg-input{
