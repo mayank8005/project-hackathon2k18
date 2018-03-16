@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>iTrack</title>
+<script type="text/javascript">
+		function validator(){
+			var x = ["shoiab","akhtar"];
+			var y = ["123456","456789"];
+			var a = document.getElementById("username").value;
+			var b = document.getElementById("password").value;
+			if(a==""){
+				document.getElementById("message").innerHTML="**likho"
+			}
+			else if(a==x[0] && b==y[0]){
+				alert("authentication confomed");
+				
+			}else
+				alert("Authentication Failed ");
+			
+			
+		
+}
+</script>
+</head>
+<body>
+<form name="login">
+	Username:<input type="text" id="username" value=""/><span id="message"> </span>
+	Password:<input type="password" id ="password" value=""/>
+	<input type="button" value="Login" onclick="validator()" />
+</form>
+</body>
+</html>
